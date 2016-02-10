@@ -30,7 +30,7 @@ items:
     source:
       git:
         ref: master
-        uri: https://github.com/orangekmt/workshop-[user_uuid].git
+        uri: https://github.com/bogdancalomfirescu/docker-test.git
       type: Git
     strategy:
       sourceStrategy:
@@ -130,7 +130,7 @@ items:
       app: sample
     name: workshop-[user_uuid]
   spec:
-    host: workshop-[user_uuid].kmt.orange-labs.fr
+    host: docker-test.kmt.orange-labs.fr
     port:
       targetPort: "8080"
     to:
